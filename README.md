@@ -1,7 +1,9 @@
-# custom-wp-config.php
-My indvidual wp-config.php for the faster start.
+#Custom wp-config.php
 
-Put your Code here:
+My customized configuration file for a faster launch.
+
+The custom code is between the two comments. Take the code you need. You can comment out or delete the rest.
+
 
     /*
     ----------------------------------------------------------------
@@ -9,7 +11,7 @@ Put your Code here:
     ----------------------------------------------------------------
     */
     
-    ...
+    [your custom code]
     
     /*
     ----------------------------------------------------------------
