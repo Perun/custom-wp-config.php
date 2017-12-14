@@ -100,6 +100,12 @@ define('WP_MEMORY_LIMIT', '96M');
 define('WP_SITEURL', 'https://www.your-website.xyz');
 define('WP_HOME', 'https://www.your-website.xyz');
 
+// Cleanup image edits
+define( 'IMAGE_EDIT_OVERWRITE', true );
+
+// Disable the Plugin and Theme Editor
+define( 'DISALLOW_FILE_EDIT', true );
+
 /*
 ----------------------------------------------------------------
 The End
