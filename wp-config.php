@@ -11,6 +11,7 @@
  * * MySQL settings
  * * Secret keys
  * * Database table prefix
+ * * individual/custom code: Take the code you need. You can comment out or delete the rest. 
  * * ABSPATH
  *
  * @link https://codex.wordpress.org/Editing_wp-config.php
