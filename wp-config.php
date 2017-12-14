@@ -66,7 +66,9 @@ define('NONCE_SALT',       'put your unique phrase here');
 $table_prefix  = 'wp_';
 
 /*
+----------------------------------------------------------------
 Take the code you need. You can comment out or delete the rest.
+----------------------------------------------------------------
 */
 
 // Enables the cache. Required by some cache plugins
@@ -98,7 +100,9 @@ define('WP_SITEURL', 'https://www.your-website.xyz');
 define('WP_HOME', 'https://www.your-website.xyz');
 
 /*
+----------------------------------------------------------------
 The End
+----------------------------------------------------------------
 */
 
 /**
