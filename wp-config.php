@@ -66,10 +66,36 @@ define('NONCE_SALT',       'put your unique phrase here');
 $table_prefix  = 'wp_';
 
 /*
-Start here:
+Take the code you need. You can comment out or delete the rest.
 */
 
+// Enables the cache. Required by some cache plugins
+define('WP_CACHE', true);
 
+// Empty the trash after 21 days. You can adjust the number of days manually.
+define('EMPTY_TRASH_DAYS', 21 );
+
+// Disable trash
+define('EMPTY_TRASH_DAYS', 0 );
+
+// Number of revisions
+define('WP_POST_REVISIONS', 5);
+
+// Disable revisions
+define('WP_POST_REVISIONS', false );
+
+// Autosave after 2 minutes (120 seconds). You can adjust the number of seconds manually.
+define('AUTOSAVE_INTERVAL', 120 );
+
+// Activate database repair and optimize
+define('WP_ALLOW_REPAIR', true);
+
+// Increase memory limit
+define('WP_MEMORY_LIMIT', '96M');
+
+// You can hardcode the url of your website and the instalaltion. Saves database queris
+define('WP_SITEURL', 'https://www.your-website.xyz');
+define('WP_HOME', 'https://www.your-website.xyz');
 
 /*
 The End
