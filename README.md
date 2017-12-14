@@ -4,11 +4,17 @@ My indvidual wp-config.php for the faster start.
 Put your Code here:
 
     /*
-    Start here:
+    ----------------------------------------------------------------
+    Take the code you need. You can comment out or delete the rest.
+    ----------------------------------------------------------------
     */
     
-    -> your code <-
+    ...
     
     /*
+    ----------------------------------------------------------------
     The End
+    ----------------------------------------------------------------
     */
+
+&mdash; Vladimir Simović
